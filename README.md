@@ -1,35 +1,99 @@
-![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+0x00. Shell, basics
+ By Julien Barbier
+ Weight: 1
+ Ongoing project - started 03-02-2022, must end by 03-03-2022 (in about 13 hours) - you're done with 13% of tasks.
+ Checker was released at 03-02-2022 06:00 AM
+ An auto review will be launched at the deadline
+About Bash projects
+Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
-# 0x00 ALX System Engineering and DevOps 💥
 
->Learning bash, scripting, networking and web infra right now, been wanting to get on this. It's going to be FUN !!.
 
-## About
+Resources
+Read or watch:
 
-- This repository consists of all the .Subject projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [th3\_gr00t](https://th3-gr00t.tk/).
+What Is “The Shell”?
+Navigation
+Looking Around
+A Guided Tour
+Manipulating Files
+Working With Commands
+Reading Man pages
+Keyboard shortcuts for Bash
+LTS
+Shebang
+man or help:
 
----
+cd
+ls
+pwd
+less
+file
+ln
+cp
+mv
+rm
+mkdir
+type
+which
+help
+man
+Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-- [0x00](./0x00-shell_basics) : Writing basic bash scripts that perform basic stuff.
-- [0x01](./0x01-shell_permissions) : Linux permissions.
-- [0x02](./0x02-shell_redirections) : Shell, I/O Redirections and filters.
-- [0x03](./0x03-shell_variables_expansions) : Shell, init files, variables and expansions.
-- [0x04](./0x04-loops_conditions_and_parsing) : Loops, conditions and parsing.
-- [0x05](./0x05-processes_and_signals) : Processes and signals.
-- [0x06](./0x06-regular_expressions) : Regular expression.
-- [0x07](./0x07-networking_basics) : Networking basics #0.
-- [0x08](./0x08-networking_basics_2) : Networking basics #1.
-- [0x09](./0x09-web_infrastructure_design) : Web infrastructure design.
-- [0x0A](./0x0A-configuration_management) : Configuration management.
-- [0x0B](./0x0B-ssh) : SSH.
-- [0x0C](./0x0C-web_server) : Web server.
-- [0x0D](./0x0D-web_stack_debugging_0) : Web stack debugging #0.
-- [0x0E](./0x0E-web_stack_debugging_1) : Web stack debugging #1.
-- [0x0F](./0x0F-load_balancer) : Load balancer.
-- [0x10](./0x10-https_ssl) : HTTPS SSL.
-- [0x11](./0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter) : What happens when you type holbertonschool.com in your browser and press Enter.
-- [0x12](./0x12-web_stack_debugging_2) : Web stack debugging #2.
-- [0x13](./0x13-firewall) : Firewall.
-- [0x14](./0x14-mysql) : MySQL.
-- [0x15](./0x15-api) : API.
-- [Attack is the best defense.](./attack_is_the_best_defense)
+General
+What does RTFM mean?
+What is a Shebang
+What is the Shell
+What is the shell
+What is the difference between a terminal and a shell
+What is the shell prompt
+How to use the history (the basics)
+Navigation
+What do the commands or built-ins cd, pwd, ls do
+How to navigate the filesystem
+What are the . and .. directories
+What is the working directory, how to print it and how to change it
+What is the root directory
+What is the home directory, and how to go there
+What is the difference between the root directory and the home directory of the user root
+What are the characteristics of hidden files and how to list them
+What does the command cd - do
+Looking Around
+What do the commands ls, less, file do
+How do you use options and arguments with commands
+Understand the ls long format and how to display it
+A Guided Tour
+What does the ln command do
+What do you find in the most common/important directories
+What is a symbolic link
+What is a hard link
+What is the difference between a hard link and a symbolic link
+Manipulating Files
+What do the commands cp, mv, rm, mkdir do
+What are wildcards and how do they work
+How to use wildcards
+Working with Commands
+What do type, which, help, man commands do
+What are the different kinds of commands
+What is an alias
+When do you use the command help instead of man
+Reading Man Pages
+How to read a man page
+What are man page sections
+What are the section numbers for User commands, System calls and Library functions
+Keyboard Shortcuts for Bash
+Common shortcuts for Bash
+LTS
+What does LTS mean?
+Requirements
+General
+Allowed editors: vi, vim, emacs
+All your scripts will be tested on Ubuntu 20.04 LTS
+All your scripts should be exactly two lines long ($ wc -l file should print 2)
+All your files should end with a new line (why?)
+The first line of all your files should be exactly #!/bin/bash
+A README.md file at the root of the repo, containing a description of the repository
+A README.md file, at the root of the folder of this project, describing what each script is doing
+You are not allowed to use backticks, &&, || or ;
+All your scripts must be executable. To make your file executable, use the chmod command: chmod u+x file. Later, we’ll learn more about how to utilize this command.
