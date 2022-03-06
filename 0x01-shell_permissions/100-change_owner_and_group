@@ -1,2 +1,3 @@
 #!/bin/bash
-chown betty:holberton *
+chown root:vincent *
+chgrp root:staff *
