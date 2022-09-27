@@ -2,4 +2,4 @@
 # Installs and sets up NGINX 
 sudo apt-get install -y nginx
 sudo service nginx start
-echo "Holberton School" | sudo tee /usr/share/nginx/html/index.html
+echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
